@@ -19,13 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LimelightSDK",
-            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.12/LimelightSDK.xcframework.zip",
-            checksum: "d0127d8c66bcc563ab5772212187b6c172af53d4383f95b16e236e617f527751"
+            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.13/LimelightSDK.xcframework.zip",
+            checksum: "5b20b6da68fa5a4c4a3931ef8bb6599893f20a5d4bbc59fc310bd05adbe22c9f"
         ),
         .binaryTarget(
             name: "OMSDK_Limelightinc",
-            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.12/OMSDK_Limelightinc.xcframework.zip",
-            checksum: "9b7e926b11b24455fb7441ed93f7fd057256afd14f004fd018b7bbe32592673b"
+            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.13/OMSDK_Limelightinc.xcframework.zip",
+            checksum: "5913b0e05cbdbfe3778de9ad6007de1f845300f99ffe271e58ee795041311992"
         ),
          // This is a wrapper target to configure various settings required by main binary target.
         .target(
