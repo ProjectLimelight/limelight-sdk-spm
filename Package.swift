@@ -19,13 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LimelightSDK",
-            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.11/LimelightSDK.xcframework.zip",
-            checksum: "2d2421366e5c47a0d68dcfbea5f4442e0b3661391b346a64c2062ddd2185fdd2"
+            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.12/LimelightSDK.xcframework.zip",
+            checksum: "d0127d8c66bcc563ab5772212187b6c172af53d4383f95b16e236e617f527751"
         ),
         .binaryTarget(
             name: "OMSDK_Limelightinc",
-            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.11/OMSDK_Limelightinc.xcframework.zip",
-            checksum: "68d55b83b3dda7df8ba823d22d067b1b670ecae55b686a9eb00727bff1a97235"
+            url: "https://limelight-sdk.s3.amazonaws.com/iOS/LimelightSDK/1.4.12/OMSDK_Limelightinc.xcframework.zip",
+            checksum: "9b7e926b11b24455fb7441ed93f7fd057256afd14f004fd018b7bbe32592673b"
         ),
          // This is a wrapper target to configure various settings required by main binary target.
         .target(
@@ -44,7 +44,6 @@ let package = Package(
                 .linkedFramework("StoreKit"),
                 .linkedFramework("UIKit"),
                 .linkedFramework("WebKit"),
-                .unsafeFlags(["-ObjC"]),  // Required for NSClassFromString to find ObjC classes
             ]
         ),
     ]
